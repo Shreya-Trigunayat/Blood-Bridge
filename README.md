@@ -50,8 +50,8 @@ The application prioritizes seamless communication, data privacy, and security t
 To run the server locally, follow these steps:
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Shreya-Trigunayat/Blood-bridge.git
-   cd Blood-bridge
+   git clone https://github.com/Shreya-Trigunayat/Blood-Bridge.git
+   cd Blood-Bridge
 2. **Install dependencies**: Navigate to the client and server folders and install dependencies:
    ```bash
    cd client

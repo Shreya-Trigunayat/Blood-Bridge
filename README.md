@@ -1,36 +1,78 @@
-# <h1><b>BloodBank</b></h1>
+# BloodBank: A Robust Web-Based Blood Bank Application 
 
-# <h3>About the Application</h3>
+## About the Application
 
-I have designed and implemented a robust web-based blood bank application, named "BloodBank," which serves as a platform for blood donation to organizations and provides hospitals with the ability to monitor the quantity of blood they have received from various sources. 
+BloodBank is a robust web-based platform designed to facilitate blood donation and management for organizations and hospitals. This application provides:  
 
-The application offers distinct user interfaces tailored for donors, hospitals, and organizations. Donors can access their dashboards to view and manage their recent activities.
+- A tailored user interface for donors, hospitals, and organizations.  
+- Donor dashboards for viewing and managing recent activities.  
+- Organizational tools, including:  
+  - **Real-Time Insights:** A customizable dashboard with live updates.  
+  - **Analytics Tools:** Performance evaluation metrics for better decision-making.  
+  - **Advanced Filtering:** Efficiently manage blood inventory with precision.  
+  - **Activity Tracking:** Monitor blood consumption trends for improved planning.  
 
-Organizations benefit from a dedicated interface comprising multiple modules, including a customizable dashboard that presents real-time insights, analytics tools for performance evaluation, advanced filtering options to efficiently manage blood inventory, and activity tracking to monitor blood consumption trends. 
+The application prioritizes seamless communication, data privacy, and security to ensure an optimal user experience.  
 
-Through careful consideration of technical implementation, the BloodBank application ensures seamless communication between users and the system while maintaining data privacy and security.
+---
 
-# <h3>Tech Stacks</h3>
+## Tech Stack  
 
-#<b>antd</b>- Ant Design is a React.js UI library that contains easy-to-use components that are useful for building interactive user interfaces.
-<br/>
+- React.js  
+- Tailwind CSS  
+- Ant Design (AntD)  
+- Redux  
+- Node.js  
+- Express.js  
+- MongoDB  
 
-#<b> Tailwind CSS </b>-Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces. It is a highly customizable, 
-low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override.
-<br/>
+---
 
-#<b>ReactJs</b>- React is a library for building composable user interfaces. It encourages the creation of reusable UI components, which present data that changes over time.
-<br/>
-#<b>Redux</b> - Redux is a state management library for JavaScript applications. It provides a centralized store to manage the application state, with predictable state updates using actions and reducers, promoting scalable and maintainable code.
+## Features  
 
-#<b>Node-</b> Node.js is an open-source, cross-platform JavaScript runtime environment and library for running web applications outside the client's browser.
-<br/>
+- **Donor Management:**  
+  - Personalized dashboards for donors to manage and view activities.  
 
-#<b>Express-</b> Express JS is a Node.js framework designed to build API's web applications cross-platform mobile apps quickly and make node js easy.
-<br/>
+- **Organizational Tools:**  
+  - Real-time analytics for tracking blood inventory and usage trends.  
+  - Filtering capabilities for efficient blood inventory management.  
 
-#<b>MongoDB</b> MongoDB is an open-source NoSQL database management program. NoSQL (Not only SQL) is used as an alternative to traditional relational databases.
+- **Hospital Support:**  
+  - A platform to monitor blood received from various sources.  
 
+- **Secure Communication:**  
+  - Ensures seamless interaction between users and the system while maintaining robust data security.  
+
+---
+
+## Installation and Usage  
+
+To run the server locally, follow these steps:
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/Blood-bridge.git
+   cd Blood-bridge
+2. **Install dependencies**: Navigate to the client and server folders and install dependencies:
+   ```bash
+   cd client
+   npm install
+   cd ../server
+   npm install
+3. **Set up environment variables**: Create a .env file in the server folder with the following keys:
+   ```env
+   MONGO_URI=your_mongodb_connection_string
+   JWT_SECRET=your_jwt_secret
+4. **Start the development servers**
+- Run the client
+   ```bash
+   cd client
+   npm start
+- Run the server:
+   ```bash
+   cd server
+   npm run dev
+5. **Access the application**  
+   
 # <h3>Web Pages ScreenShot</h3>
 <h4>Donar Registration page</h4>
 <img width="700" alt="Screenshot 2023-07-02 053730" src="https://github.com/cusp13/BloodBank-web/assets/108236157/8bb95aad-064d-4379-974f-315caab16141">
